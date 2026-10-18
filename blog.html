@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog | PAVIRO GLOBAL</title>
+     <link rel="icon" type="image/png" href="./logo%20(2).png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="blog.css">
+    <script src="./navigation.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <!-- LOGO -->
+            <img class="logo" src="./logo (2).png" alt="PAVIRO GLOBAL PVT LTD">
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button type="button" class="menu-icon" aria-controls="site-navigation" aria-expanded="false"
+                aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <!-- NAVIGATION -->
+
+            <nav id="site-navigation" class="nav-menu" aria-label="Primary navigation">
+
+                <a href="./index.html">
+                    Home
+                </a>
+
+                <a href="./about.html">
+                    About
+                </a>
+
+                <!-- ================= COURSES DROPDOWN ================= -->
+
+<div class="courses-nav-dropdown">
+
+                    <button type="button" class="courses-nav-btn" aria-expanded="false" aria-controls="courses-submenu"
+                        aria-haspopup="true">
+        Courses
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+
+                    <div id="courses-submenu" class="courses-nav-menu" hidden>
+
+        <a href="./courses.html#course-data-science-gen-ai">
+            Data Science With Gen AI
+        </a>
+
+        <a href="./courses.html#course-data-science-python">
+            Data Science Using Python
+        </a>
+
+        <a href="./courses.html#course-machine-learning">
+            Machine Learning &amp; Deep Learning
+        </a>
+
+        <a href="./courses.html#course-ai-python">
+            Artificial Intelligence Using Python
+        </a>
+
+        <a href="./courses.html#course-excel">
+            Excel – Basics To Advance
+        </a>
+
+        <a href="./courses.html#course-tableau">
+            Tableau
+        </a>
+
+        <a href="./courses.html#course-power-bi">
+            Power BI
+        </a>
+
+        <a href="./courses.html#course-business-analytics">
+            Business Analytics
+        </a>
+
+        <a href="./courses.html#course-data-analytics-python">
+            Data Analytics Using Python
+        </a>
+
+        <a href="./courses.html#course-python-programming">
+            Python Programming Course
+        </a>
+
+        <a href="./courses.html#course-mysql">
+            MySQL
+        </a>
+
+        <a href="./courses.html#course-full-stack-java">
+            Full Stack Development Using Java
+        </a>
+
+        <a href="./courses.html#course-full-stack-python">
+            Full Stack Development Using Python
+        </a>
+
+    </div>
+
+</div>
+
+                <a href="./career.html">
+                    Career Guidance
+                </a>
+
+                <a href="./resources.html">
+                    Resources
+                </a>
+
+                <a href="./blog.html" class="active">
+                    Blog
+                </a>
+
+                <a href="./contact.html">
+                    Contact
+                </a>
+
+                <!-- <a href="./login.html" class="profile-button">
+                    <i class="fa-solid fa-user"></i>
+
+                </a> -->
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- ================= BLOG HERO ================= -->
+
+        <section class="blog-hero">
+
+            <div class="blog-hero-container">
+
+
+                <div class="blog-hero-content">
+
+                    <span class="section-label">
+                        PAVIRO INSIGHTS
+                    </span>
+
+                    <h1>
+
+                        Ideas that help you
+                        <span>learn, build & grow.</span>
+
+                    </h1>
+
+
+                    <p>
+
+                        Explore learning insights, technology perspectives,
+                        practical ideas and career-focused guidance to
+                        support your continuous growth.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="#articles" class="primary-btn">
+
+                            Explore Articles
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a href="./resources.html" class="secondary-btn">
+
+                            Explore Resources
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- HERO VISUAL -->
+
+
+                <div class="hero-visual">
+                    <img src="./blog image 1.png" alt="PAVIRO Global Learning Insights">
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CATEGORY BAR ================= -->
+
+        <section class="category-section">
+
+            <div class="category-container">
+
+
+                <div class="category-title">
+
+                    <span>
+                        EXPLORE
+                    </span>
+
+                    <strong>
+                        Topics
+                    </strong>
+
+                </div>
+
+
+                <div class="category-list">
+
+                    <button class="category active">
+                        All
+                    </button>
+
+                    <button class="category">
+                        Learning
+                    </button>
+
+                    <button class="category">
+                        Technology
+                    </button>
+
+                    <button class="category">
+                        Career
+                    </button>
+
+                    <button class="category">
+                        Skills
+                    </button>
+
+                </div>
+
+
+                <!-- SEARCH -->
+
+                <div class="blog-search">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input type="search" placeholder="Search articles...">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FEATURED ARTICLE ================= -->
+
+        <section class="featured-section">
+
+            <div class="featured-container">
+
+
+
+
+                <div class="featured-visual">
+                    <img src="./blog image 2.png" alt="PAVIRO Global Featured Insight">
+                </div>
+
+
+
+                <div class="featured-content">
+
+                    <span class="article-category">
+                        LEARNING
+                    </span>
+
+
+                    <h2>
+                        Building practical skills
+                        for an evolving digital world.
+                    </h2>
+
+
+                    <p>
+
+                        Discover how structured learning,
+                        practical application and continuous
+                        development can support meaningful
+                        professional growth.
+
+                    </p>
+
+
+                    <div class="article-meta">
+
+                    </div>
+
+
+                    <a href="#" class="read-btn">
+
+                        Read Article
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ARTICLES ================= -->
+
+        <section class="articles-section" id="articles">
+
+            <div class="section-heading">
+
+
+                <div>
+
+                    <span class="section-label">
+                        LATEST INSIGHTS
+                    </span>
+
+                    <h2>
+
+                        Explore ideas.
+                        <span>Keep growing.</span>
+
+                    </h2>
+
+                </div>
+
+
+                <p>
+
+                    Browse articles covering learning,
+                    technology, skills and career direction.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- ARTICLE GRID -->
+
+            <div class="article-grid">
+
+
+                <!-- ARTICLE 01 -->
+
+                <article class="article-card">
+
+
+                    <div class="article-image image-one">
+
+    <img src="./blog 1.png" alt="Learning">
+
+    <span>
+        LEARNING
+    </span>
+
+</div>
+
+
+                    <div class="article-content">
+
+                        <div class="article-top">
+
+                            <span>
+                                LEARNING
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Why practical learning
+                            matters for skill development.
+                        </h3>
+
+
+                        <p>
+
+                            Explore the connection between
+                            understanding concepts and applying
+                            them in practical situations.
+
+                        </p>
+
+
+                        <a href="#">
+
+                            Read More
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 02 -->
+
+                <article class="article-card">
+
+
+                    <div class="article-image image-two">
+
+    <img src="./blog 2.png" alt="Technology">
+
+    <span>
+        TECHNOLOGY
+    </span>
+
+</div>
+
+
+                    <div class="article-content">
+
+                        <div class="article-top">
+
+                            <span>
+                                TECHNOLOGY
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Understanding technology
+                            through continuous learning.
+                        </h3>
+
+
+                        <p>
+
+                            A look at how continuous learning
+                            can help learners stay connected
+                            with an evolving digital environment.
+
+                        </p>
+
+
+                        <a href="#">
+
+                            Read More
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 03 -->
+
+                <article class="article-card">
+
+
+                    <div class="article-image image-two">
+
+    <img src="./blog 3.png" alt="Technology">
+
+    <span>
+        CAREER
+    </span>
+
+</div>
+
+
+                    <div class="article-content">
+
+                        <div class="article-top">
+
+                            <span>
+                                CAREER
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Connecting skills with
+                            meaningful career direction.
+                        </h3>
+
+
+                        <p>
+
+                            Learn why understanding your goals
+                            and relevant skill gaps can help
+                            create a clearer learning direction.
+
+                        </p>
+
+
+                        <a href="./career.html">
+
+                            Explore Guidance
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 04 -->
+
+                <article class="article-card">
+
+
+                    <div class="article-image image-two">
+
+    <img src="./blog 4.png" alt="Technology">
+
+    <span>
+        SKILLS
+    </span>
+
+</div>
+
+
+                    <div class="article-content">
+
+                        <div class="article-top">
+
+                            <span>
+                                SKILLS
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Building a learning path
+                            around relevant skills.
+                        </h3>
+
+
+                        <p>
+
+                            Understand how focused skill development
+                            can become part of a structured learning
+                            journey.
+
+                        </p>
+
+
+                        <a href="#">
+
+                            Read More
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 05 -->
+
+                <article class="article-card">
+
+
+                    <div class="article-image image-two">
+
+    <img src="./blog 5.png" alt="Technology">
+
+    <span>
+        GROWTH
+    </span>
+
+</div>
+
+
+                    <div class="article-content">
+
+                        <div class="article-top">
+
+                            <span>
+                                GROWTH
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Learning as a continuous
+                            journey of growth.
+                        </h3>
+
+
+                        <p>
+
+                            Explore the value of keeping your
+                            learning adaptable as goals and
+                            opportunities evolve.
+
+                        </p>
+
+
+                        <a href="#">
+
+                            Read More
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 06 -->
+
+                <article class="article-card">
+
+
+                    <div class="article-image image-two">
+
+    <img src="./blog 3.png" alt="Technology">
+
+    <span>
+        CAREER
+    </span>
+
+</div>
+
+
+                    <div class="article-content">
+
+                        <div class="article-top">
+
+                            <span>
+                                CAREER
+                            </span>
+
+
+                        </div>
+
+
+                        <h3>
+                            From learning goals
+                            to practical next steps.
+                        </h3>
+
+
+                        <p>
+
+                            A structured approach to connecting
+                            learning, practice and future
+                            opportunities.
+
+                        </p>
+
+
+                        <a href="./career.html">
+
+                            Get Guidance
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+
+            <!-- PAGINATION -->
+
+            <div class="pagination">
+
+                <button class="page active">
+                    01
+                </button>
+
+                <button class="page">
+                    02
+                </button>
+
+                <button class="page">
+                    03
+                </button>
+
+                <button class="next-page">
+
+                    Next
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= NEWSLETTER / CTA ================= -->
+
+        <section class="blog-cta">
+
+            <div class="cta-content">
+
+                <span class="section-label">
+                    KEEP LEARNING
+                </span>
+
+
+                <h2>
+
+                    Stay curious.
+                    <span>Keep moving forward.</span>
+
+                </h2>
+
+
+                <p>
+
+                    Explore PAVIRO resources, courses and career
+                    guidance to support your next learning step.
+
+                </p>
+
+            </div>
+
+
+            <div class="cta-buttons">
+
+                <a href="./resources.html" class="primary-btn">
+
+                    Explore Resources
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <a href="./courses.html" class="cta-light">
+
+                    Explore Courses
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+
+    <!-- =====================================================
+         MAIN FOOTER
+    ====================================================== -->
+
+    <div class="footer-main">
+
+        <div class="footer-container">
+
+
+            <!-- =================================================
+                 BRAND COLUMN
+            ================================================== -->
+
+            <div class="footer-brand">
+
+                <a href="./index.html" class="footer-logo">
+                    <img src="./logo (2).png"
+                         alt="PAVIRO GLOBAL">
+                </a>
+
+
+                <div class="footer-tagline">
+                    LEARN • BUILD • GROW
+                </div>
+
+
+                <p class="footer-description">
+                    Empowering individuals worldwide with
+                    industry-relevant skills, practical learning
+                    and career-focused growth.
+                </p>
+
+
+                <!-- SOCIAL ICONS -->
+
+                <div class="footer-socials">
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/paviro333?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="#" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="footer-slogan">
+                    A Brighter Career<br>
+                    <span>Starts Here</span>
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 COMPANY
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3>
+                    COMPANY
+                </h3>
+
+                <div class="footer-heading-line"></div>
+
+
+                <ul>
+
+                    <li>
+                        <a href="./about.html">
+                            About Us
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">
+                            Our Mission
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Leadership
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./career.html">
+                            Careers
+
+                            <small>
+                                We're Hiring
+                            </small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            News &amp; Media
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Become a Partner
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./contact.html">
+                            Contact Us
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 LEARNING
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3>
+                    LEARNING
+                </h3>
+
+                <div class="footer-heading-line"></div>
+
+
+                <ul>
+
+                    <li>
+                        <a href="./courses.html">
+                            All Courses
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./courses.html">
+                            Programs
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Live Classes
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./career.html">
+                            Career Guidance
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Student Stories
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./blog.html">
+                            Blog
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Free Resources
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Certification
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SUPPORT
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3>
+                    SUPPORT
+                </h3>
+
+                <div class="footer-heading-line"></div>
+
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            Help Center
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            FAQ
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Terms &amp; Conditions
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Refund Policy
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Cancellation Policy
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Community Guidelines
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./contact.html">
+                            Contact Support
+                            <span>›</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 NEWSLETTER
+            ================================================== -->
+
+            <div class="footer-newsletter">
+
+
+                <div class="newsletter-title">
+                    STAY CONNECTED
+                </div>
+
+
+                <h2>
+                    Get the
+                    <span>latest updates</span>
+                </h2>
+
+
+                <p>
+                    on courses, events and career tips.
+                </p>
+
+
+
+                <!-- EMAIL FORM -->
+
+                <form class="newsletter-form">
+
+                    <div class="email-box">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <input type="email"
+                               placeholder="Enter your email address"
+                               aria-label="Email address"
+                               required>
+
+                    </div>
+
+
+                    <button type="submit">
+                        Subscribe
+                        <span>→</span>
+                    </button>
+
+                </form>
+
+
+
+                <!-- CHECKBOX -->
+
+                <label class="newsletter-check">
+
+                    <input type="checkbox"
+                           required>
+
+                    <span class="custom-check"></span>
+
+                    <span>
+                        I agree to receive updates,
+                        offers and newsletters.
+                    </span>
+
+                </label>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         TRUSTED COMPANIES
+    ====================================================== -->
+
+    <div class="trusted-section">
+
+        <div class="trusted-container">
+
+
+            <div class="trusted-text">
+
+                <strong>
+                    Trusted by learners worldwide
+                </strong>
+
+                <span>
+                    Join thousands of students building
+                    the future with us.
+                </span>
+
+            </div>
+
+
+            <div class="trusted-divider"></div>
+
+
+            <div class="company-logos">
+
+                <span class="company-logo google">
+                    Google
+                </span>
+
+                <span class="company-logo microsoft">
+                    <i class="fa-brands fa-microsoft"></i>
+                    Microsoft
+                </span>
+
+                <span class="company-logo aws">
+                    aws
+                </span>
+
+                <span class="company-logo meta">
+                    ∞ Meta
+                </span>
+
+                <span class="company-logo infosys">
+                    Infosys
+                </span>
+
+                <span class="company-logo tcs">
+                    TATA
+                    <small>CONSULTANCY SERVICES</small>
+                </span>
+
+                <span class="company-logo accenture">
+                    Accenture
+                </span>
+
+                <span class="company-logo ibm">
+                    IBM
+                </span>
+
+                <span class="more-companies">
+                    and many more...
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         BOTTOM BAR
+    ====================================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="bottom-container">
+
+
+            <!-- COPYRIGHT -->
+
+            <div class="copyright">
+
+                <span>
+                    © 2025 PAVIRO GLOBAL.
+                    All rights reserved.
+                </span>
+
+                <small>
+                    Education for a better tomorrow.
+                </small>
+
+            </div>
+
+
+
+            <!-- SECURE -->
+
+            <div class="bottom-feature">
+
+                <div class="bottom-feature-icon blue">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Secure &amp; Trusted
+                    </strong>
+
+                    <span>
+                        Your data is safe with us
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SUSTAINABLE -->
+
+            <div class="bottom-feature">
+
+                <div class="bottom-feature-icon green">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Sustainable Learning
+                    </strong>
+
+                    <span>
+                        A greener, brighter future
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- GLOBAL -->
+
+            <div class="bottom-feature">
+
+                <div class="bottom-feature-icon globe">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Global Community
+                    </strong>
+
+                    <span>
+                        Learn. Connect. Grow.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- APP -->
+
+            <div class="app-download">
+
+                <span>
+                    Download Our App
+                </span>
+
+                <div class="app-buttons">
+
+                    <a href="#"
+                       class="app-store">
+
+                        <i class="fa-brands fa-apple"></i>
+
+                        <div>
+                            <small>
+                                Download on the
+                            </small>
+
+                            <strong>
+                                App Store
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="#"
+                       class="google-play">
+
+                        <i class="fa-brands fa-google-play"></i>
+
+                        <div>
+                            <small>
+                                GET IT ON
+                            </small>
+
+                            <strong>
+                                Google Play
+                            </strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- INDIA -->
+
+            <div class="made-india">
+
+                <span class="india-flag">
+                    🇮🇳
+                </span>
+
+                <span>
+                    Made with
+                    <b>♥</b>
+                    in India
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const dropdown =
+        document.querySelector(".courses-nav-dropdown");
+
+    const button =
+        document.querySelector(".courses-nav-btn");
+
+
+    if (!dropdown || !button) {
+        return;
+    }
+
+
+    /* COURSES BUTTON CLICK */
+
+    button.addEventListener("click", function (event) {
+
+        event.stopPropagation();
+
+        dropdown.classList.toggle("open");
+
+    });
+
+
+    /* CLICK OUTSIDE */
+
+    document.addEventListener("click", function (event) {
+
+        if (!dropdown.contains(event.target)) {
+
+            dropdown.classList.remove("open");
+
+        }
+
+    });
+
+
+    /* COURSE SELECT */
+
+    const links =
+        dropdown.querySelectorAll(".courses-nav-menu a");
+
+
+    links.forEach(function (link) {
+
+        link.addEventListener("click", function () {
+
+            dropdown.classList.remove("open");
+
+        });
+
+    });
+
+
+    /* ESC KEY */
+
+    document.addEventListener("keydown", function (event) {
+
+        if (event.key === "Escape") {
+
+            dropdown.classList.remove("open");
+
+        }
+
+    });
+
+});
+
+</script>
+</body>
+
+</html>
